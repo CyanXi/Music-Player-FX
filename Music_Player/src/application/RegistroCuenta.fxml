@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="390.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Recursos%20de%20Interfaz/base3_5.png" />
+         </image>
+      </ImageView>
+      <VBox layoutX="189.0" layoutY="147.0" prefHeight="125.0" prefWidth="219.0">
+         <children>
+            <TextField prefHeight="38.0" prefWidth="219.0" promptText="Correo electrónico">
+               <VBox.margin>
+                  <Insets bottom="6.2" />
+               </VBox.margin>
+            </TextField>
+            <TextField accessibleRole="PASSWORD_FIELD" prefHeight="40.0" prefWidth="219.0" promptText="Contraseña">
+               <VBox.margin>
+                  <Insets bottom="7.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField accessibleRole="PASSWORD_FIELD" prefHeight="43.0" prefWidth="219.0" promptText="Confirmación de Contraseña">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </TextField>
+         </children>
+      </VBox>
+      <HBox layoutX="189.0" layoutY="102.0" prefHeight="36.0" prefWidth="219.0">
+         <children>
+            <TextField prefHeight="36.0" prefWidth="107.0" promptText="Nombres">
+               <HBox.margin>
+                  <Insets right="7.0" />
+               </HBox.margin>
+            </TextField>
+            <TextField prefHeight="36.0" prefWidth="112.0" promptText="Apellidos" />
+         </children>
+      </HBox>
+      <Label layoutX="251.0" layoutY="72.0" prefHeight="17.0" prefWidth="106.0" text="Registro de Usuario">
+         <font>
+            <Font name="RockoFLF" size="11.0" />
+         </font>
+      </Label>
+      <CheckBox layoutX="182.0" layoutY="301.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="239.0" text="¿Aceptas los términos y condiciones de uso?">
+         <font>
+            <Font size="11.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </CheckBox>
+      <VBox layoutX="193.0" layoutY="331.0" prefHeight="30.0" prefWidth="212.0">
+         <children>
+            <Button mnemonicParsing="false" opacity="0.0" prefHeight="40.0" prefWidth="212.0" text="Registrárse">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </VBox>
+      <Separator layoutY="80.0" prefHeight="5.0" prefWidth="249.0" />
+      <Separator layoutX="352.0" layoutY="79.0" prefHeight="5.0" prefWidth="249.0" />
+      <Separator layoutY="283.0" prefHeight="5.0" prefWidth="600.0" />
+   </children>
+</AnchorPane>
